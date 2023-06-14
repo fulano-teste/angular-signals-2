@@ -1,0 +1,23 @@
+<main>
+    <button (click)="increment()">{{ counter() }}</button>
+
+    <div>Double: {{ double() }}</div>
+
+    <div>Triple: {{ triple() }}</div>
+
+    <!-- <div>{{ timer$ | async }}</div>
+    <div>{{ timerComSignal() }}</div>
+    <div>{{ timer2$ | async }}</div> -->
+
+    <div>
+        {{ fullName() }}
+    </div>
+
+    <div>
+        {{ person().name }}
+    </div>
+
+    <pre>
+        {{person() | json}}
+    </pre>
+</main>
